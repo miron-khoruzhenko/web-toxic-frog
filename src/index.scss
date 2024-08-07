@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// @import './assets//fonts//fonts.scss';
+@import './fonts.scss';
+
+body {
+	background-color: #000;
+	font-family: 'Orbitron', sans-serif;
+}
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.green-text-gradient{
+	background: -webkit-linear-gradient(#84FE0A, #80FF95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.white-text-gradient{
+	background: -webkit-linear-gradient(#FFFFFF, rgba(253, 253, 253, 0.74), rgba(0, 0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
