@@ -1,6 +1,4 @@
-import React from 'react'
 import Hero from './1.Hero'
-import Navbar from '@src/components/common/Navbar'
 import BannerSection from './2.Banner'
 import Section3 from './3.Section'
 import Section4 from './4.Section'

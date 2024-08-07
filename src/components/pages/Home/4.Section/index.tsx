@@ -1,5 +1,3 @@
-import React from 'react'
-
 import bg_element from '@/Section4/bg_element.png'
 
 const Section4 = () => {
